@@ -1,0 +1,66 @@
+{
+  "version": "1.0",
+  "response": {
+    "shouldEndSession": true,
+    "directives": [
+      {
+        "type": "Display.RenderTemplate",
+        "template": {
+          "type": "ListTemplate2",
+          "listItems": [
+            {
+              "token": "token",
+              "image": {
+                "sources": [
+                  {
+                    "url": "https://via.placeholder.com/1200x1000"
+                  }
+                ],
+                "contentDescription": "Description"
+              },
+              "textContent": {
+                "primaryText": {
+                  "text": "primary text",
+                  "type": "RichText"
+                },
+                "secondaryText": {
+                  "text": "secondary text",
+                  "type": "RichText"
+                },
+                "tertiaryText": {
+                  "text": "tertiary text",
+                  "type": "RichText"
+                }
+              }
+            },
+            {
+              "token": "token",
+              "image": null,
+              "textContent": {
+                "primaryText": {
+                  "text": "primary text",
+                  "type": "RichText"
+                },
+                "secondaryText": {
+                  "text": "secondary text",
+                  "type": "RichText"
+                },
+                "tertiaryText": {
+                  "text": "tertiary text",
+                  "type": "RichText"
+                }
+              }
+            }
+          ],
+          "title": "Title",
+          "token": "token"
+        }
+      }
+    ],
+    "outputSpeech": {
+      "type": "SSML",
+      "ssml": "<speak>Here is your list, soldier</speak>"
+    }
+  },
+  "sessionAttributes": {}
+}
